@@ -6,13 +6,13 @@ To use googleapi to fetch youtube data perform preprocessing and then orchestrat
 * Create an EC2 instance and S3 bucket in AWS and then provide mutual read and write access to them.
 * ssh into cmd using following command
     ssh -i "sample.pem" user@public_ipv4_dns_name
-* install and update necessary libraries and modules
-  1 sudo apt install python3-pip3 // to install pip
-  2 sudo apt-get update // to update all the packages 
-  3 sudo pip install apache-airflow // to install apache airflow using pip
-  4 sudo pip install pandas // install pandas library for preprocessing and data manipulation
-  5 sudo pip install s3fs // install s3 file system library to conveniently upload files to s3 bucket
-  6 sudo pip install google-api-python-client // to import googleapiclient.discovery module to make api calls
+* install and update necessary libraries and modules <br>
+  1 sudo apt install python3-pip3 // to install pip <br>
+  2 sudo apt-get update // to update all the packages <br>
+  3 sudo pip install apache-airflow // to install apache airflow using pip <br>
+  4 sudo pip install pandas // install pandas library for preprocessing and data manipulation <br>
+  5 sudo pip install s3fs // install s3 file system library to conveniently upload files to s3 bucket <br>
+  6 sudo pip install google-api-python-client // to import googleapiclient.discovery module to make api calls <br>
 
 **Airflow Setup**
 
